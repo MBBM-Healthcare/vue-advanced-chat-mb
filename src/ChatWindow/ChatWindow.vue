@@ -94,6 +94,7 @@ export default {
 	},
 
 	props: {
+		mobileMax: { type: Number, default: 199 },
 		height: { type: String, default: '600px' },
 		theme: { type: String, default: 'light' },
 		styles: { type: Object, default: () => ({}) },
@@ -244,7 +245,7 @@ export default {
 
 	methods: {
 		updateResponsive() {
-			this.isMobile = window.innerWidth < this.responsiveBreakpoint
+			this.isMobile = this.mobileMax < this.responsiveBreakpoint
 		},
 		toggleRoomsList() {
 			this.showRoomsList = !this.showRoomsList

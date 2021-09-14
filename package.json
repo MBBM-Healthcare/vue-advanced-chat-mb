@@ -1,5 +1,5 @@
 {
-	"name": "vue-advanced-chat",
+	"name": "vue-advanced-chat-mb",
 	"version": "0.8.5",
 	"license": "MIT",
 	"description": "A beautiful chat rooms component made with Vue.js - compatible with Vue, React & Angular",
@@ -20,12 +20,12 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/antoine92190/vue-advanced-chat.git"
+		"url": "git+https://github.com/MBBM-Healthcare/vue-advanced-chat-mb.git"
 	},
 	"bugs": {
-		"url": "https://github.com/antoine92190/vue-advanced-chat/issues"
+		"url": "https://github.com/MBBM-Healthcare/vue-advanced-chat-mb/issues"
 	},
-	"homepage": "https://github.com/antoine92190/vue-advanced-chat#readme",
+	"homepage": "https://github.com/MBBM-Healthcare/vue-advanced-chat-mb#readme",
 	"main": "./dist/vue-advanced-chat.common.js",
 	"unpkg": "./dist/vue-advanced-chat.min.js",
 	"scripts": {
